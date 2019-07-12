@@ -1,0 +1,23 @@
+//
+// |--------------------------------------------------
+// | Wills Media Server WebUI
+// | src/styles/_homePage.scss
+// | by wsngamerz
+// |--------------------------------------------------
+// 
+
+.homepage-container {
+    background-color: $colour-bluegrey-200;
+    color: $default-text-colour;
+    text-align: center;
+    display: inline-block;
+    padding: $default-padding * 4;
+    border-radius: $default-border-radius;
+    margin: auto auto;
+
+    h1 {
+        font-size: 4rem;
+        margin: $default-margin * 2 0;
+        font-weight: lighter;
+    }
+}

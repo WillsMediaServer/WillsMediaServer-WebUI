@@ -1,0 +1,17 @@
+//
+// |--------------------------------------------------
+// | Wills Media Server WebUI
+// | src/styles/main.scss
+// | by wsngamerz
+// |--------------------------------------------------
+// 
+
+// Main
+@import "variables";
+@import "reset";
+
+// Components
+@import "./components/buttons";
+
+// Pages
+@import "./homePage";

@@ -1,0 +1,95 @@
+//
+// |--------------------------------------------------
+// | Wills Media Server WebUI
+// | src/styles/_variables.scss
+// | by wsngamerz
+// |--------------------------------------------------
+// 
+
+// 
+// Colours
+// NOTE: Uses Material Design colours
+// 
+
+// Red
+$colour-red-300: #e57373;
+$colour-red-500: #f44336;
+$colour-red-700: #d32f2f;
+
+// Blue
+$colour-blue-500: #2196F3;
+$colour-blue-700: #1976D2;
+
+// Light Blue
+$colour-lightblue-300: #4FC3F7;
+$colour-lightblue-500: #03A9F4;
+$colour-lightblue-700: #0288D1;
+
+// Green
+$colour-green-300: #81C784;
+$colour-green-500: #4CAF50;
+$colour-green-700: #388E3C;
+
+// Light Green
+$colour-lightgreen-300: #AED581;
+
+// Orange
+$colour-orange-300: #FFB74D;
+$colour-orange-500: #FF9800;
+$colour-orange-700: #F57C00;
+
+// Deep Orange
+$colour-deeporange-300: #FF8A65;
+
+// Grey
+$colour-grey-300: #E0E0E0;
+$colour-grey-500: #9E9E9E;
+$colour-grey-700: #616161;
+
+// Blue Grey
+$colour-bluegrey-100: #CFD8DC;
+$colour-bluegrey-200: #B0BEC5;
+$colour-bluegrey-300: #90A4AE;
+$colour-bluegrey-400: #78909C;
+$colour-bluegrey-500: #607D8B;
+$colour-bluegrey-600: #546E7A;
+$colour-bluegrey-700: #455A64;
+$colour-bluegrey-800: #37474F;
+$colour-bluegrey-900: #263238;
+
+// Primary Colours
+$colour-primary-lighter: $colour-lightblue-300;
+$colour-primary:         $colour-lightblue-500;
+$colour-primary-darker:  $colour-lightblue-700;
+
+// Secondary Colours
+$colour-secondary-lighter: $colour-grey-300;
+$colour-secondary:         $colour-grey-500;
+$colour-secondary-darker:  $colour-grey-700;
+
+// Success Colours
+$colour-success-lighter: $colour-green-300;
+$colour-success:         $colour-green-500;
+$colour-success-darker:  $colour-green-700;
+
+// Warning Colours
+$colour-warning-lighter: $colour-orange-300;
+$colour-warning:         $colour-orange-500;
+$colour-warning-darker:  $colour-orange-700;
+
+// Danger Colours
+$colour-danger-lighter: $colour-red-300;
+$colour-danger:         $colour-red-500;
+$colour-danger-darker:  $colour-red-700;
+
+// Default colours
+$default-text-colour: #ffffff;
+
+//
+// Sizes
+//
+
+$root-font-size: 18px; // === 1rem
+$default-margin: .5rem;
+$default-padding: 1rem;
+$default-border-radius: .2rem;

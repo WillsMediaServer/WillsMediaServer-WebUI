@@ -1,0 +1,71 @@
+//
+// |--------------------------------------------------
+// | Wills Media Server WebUI
+// | src/styles/components/_buttons.scss
+// | by wsngamerz
+// |--------------------------------------------------
+// 
+
+.button {
+    border: 1px solid;
+    border-radius: $default-border-radius;
+    margin: $default-margin;
+    padding: $default-padding;
+    cursor: pointer;
+    font-size: 1rem;
+
+    &.button-primary {
+        border-color: $colour-primary;
+        background-color: $colour-primary;
+        color: $default-text-colour;
+
+        &:hover {
+            border-color: $colour-primary-darker;
+            background-color: $colour-primary-darker;
+        }
+    }
+
+    &.button-secondary {
+        border-color: $colour-secondary;
+        background-color: $colour-secondary;
+        color: $default-text-colour;
+
+        &:hover {
+            border-color: $colour-secondary-darker;
+            background-color: $colour-secondary-darker;
+        }
+    }
+
+    &.button-success {
+        border-color: $colour-success;
+        background-color: $colour-success;
+        color: $default-text-colour;
+
+        &:hover {
+            border-color: $colour-success-darker;
+            background-color: $colour-success-darker;
+        }
+    }
+
+    &.button-warning {
+        border-color: $colour-warning;
+        background-color: $colour-warning;
+        color: $default-text-colour;
+
+        &:hover {
+            border-color: $colour-warning-darker;
+            background-color: $colour-warning-darker;
+        }
+    }
+
+    &.button-danger {
+        border-color: $colour-danger;
+        background-color: $colour-danger;
+        color: $default-text-colour;
+
+        &:hover {
+            border-color: $colour-danger-darker;
+            background-color: $colour-danger-darker;
+        }
+    }
+}
